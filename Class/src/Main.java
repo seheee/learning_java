@@ -14,6 +14,17 @@ public class Main {
         Test2 test22 = new Test2();
         test11.printTest1();
         test22.printTest2();
+        Test3 test33 = new Test3();
+        test33.printTest1();
+        Test3 test55 = new Test3(5);
+        System.out.println(test55.test);
+
+        System.out.println();
+        Test1 test44 = new Test3();
+        test44.printTest1();
+        Test3 test66 = new Test3();
+        Test1 test77 = (Test1)test66;
+        test77.printTest1();
     }
 }
 
