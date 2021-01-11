@@ -20,11 +20,27 @@ public class Main {
         System.out.println(test55.test);
 
         System.out.println();
+
         Test1 test44 = new Test3();
         test44.printTest1();
         Test3 test66 = new Test3();
         Test1 test77 = (Test1)test66;
         test77.printTest1();
+
+        System.out.println();
+        System.out.println("--abstract--");
+
+        Abstract2 abstract2 = new Abstract2();
+        abstract2.Print1();
+
+        System.out.println();
+        System.out.println("--interface--");
+
+        InterfaceTest inter = new InterfaceTest();
+        inter.Print();
+        inter.Print2();
+        inter.Print3();
+
     }
 }
 
