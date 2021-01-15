@@ -1,3 +1,4 @@
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,5 +16,10 @@ public class Main {
         map.hashMapExample();
         map.treeMapExample();
         map.linkedHashMapExample();
+
+        StreamClass stream = new StreamClass();
+        stream.createStreamExample();
+        stream.intermediateOperationExample();
+        stream.terminalOperationExample();
     }
 }
